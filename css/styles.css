@@ -813,7 +813,7 @@ img {
   display: flex;
   gap: 40px;
   margin-left: auto;
-  padding-right: 215px;
+  padding-right: 15px;
   align-items: center;
 }
 .footer-soc-list::before {
