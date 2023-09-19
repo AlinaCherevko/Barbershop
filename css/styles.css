@@ -553,6 +553,7 @@ img {
   color: var(--forth-text-color);
 }
 .prices-btn {
+  width: 165px;
   font-family: inherit;
   font-weight: 600;
   font-size: 12px;
@@ -564,7 +565,7 @@ img {
   padding: 12px 20px;
   border: 1px solid #ff6c00;
   border-radius: 25px;
-  display: block;
+  display: flex;
   margin: 0 auto;
   transition-property: background-color;
   transition-duration: 250ms;
