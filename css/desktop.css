@@ -1,0 +1,161 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    outline: 1px solid red;
+  }
+  .site-header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .header-logo {
+    margin-right: 131px;
+  }
+  .contact-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+    margin-left: 254px;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .header-list {
+    gap: 30px;
+  }
+  .header-btn {
+    /* margin-left: 30px; */
+  }
+  .hero-wrap {
+    padding: 272px 0px 208px 100px;
+  }
+  .hero-title {
+    font-size: 72px;
+    line-height: calc(85 / 72);
+  }
+  .about-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .about-photo-list {
+    flex-direction: row;
+  }
+  .about-wrap {
+    justify-content: start;
+  }
+  .about-title {
+    font-size: 42px;
+    line-height: calc(49 / 42);
+  }
+  .about-text {
+    width: 470px;
+  }
+  .about-descr {
+    margin-bottom: 44px;
+  }
+  .prices-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .prices-wrap {
+    flex-direction: row;
+    gap: 30px;
+    background-image: none;
+    padding: 0;
+  }
+  .prices-list {
+    width: calc((100% - 30px) / 2);
+    padding: 30px 20px;
+  }
+  .first-wrap {
+    background-image: linear-gradient(
+      180deg,
+      #171a24 0%,
+      rgba(23, 26, 36, 0.2) 100%
+    );
+    margin-bottom: 0;
+  }
+  .second-wrap {
+    background-image: linear-gradient(
+      180deg,
+      #090b13 0%,
+      rgba(9, 11, 19, 0.2) 100%
+    );
+  }
+  .advantages-section > .container {
+    width: 1000px;
+  }
+  .advantages-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .advantades-wrap {
+    flex-direction: row;
+    gap: 130px;
+  }
+  .advantages-item {
+    width: 170px;
+    height: 133px;
+  }
+  .advantades-text-wrap {
+    width: 500px;
+  }
+  .advantages-list {
+    margin-left: 0;
+  }
+  .barbers-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .barbers-list {
+    gap: 30px;
+  }
+  .barbers-item {
+    width: calc((100% - 60px) / 3);
+  }
+
+  .exemples-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .exemples-item {
+    width: calc((100% - 90px) / 4);
+  }
+  .sections-wrap > .container {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .one {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .booking-section {
+    width: calc(50% + 15px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 25px;
+  }
+  .booking-title {
+    margin-right: 230px;
+  }
+  .booking-input {
+    width: 270px;
+  }
+  .booking-message {
+    width: 570px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .contacts-section {
+    width: calc(50% - 15px);
+    padding-left: 105px;
+  }
+  /* .working-hours {
+    margin-top: 70px;
+  } */
+  .address-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+}
